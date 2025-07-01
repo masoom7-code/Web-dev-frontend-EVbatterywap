@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz - EV Battery Swap</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ <script defer src="script.js"></script>
+
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <div class="max-w-3xl mx-auto mt-10 p-6 bg-white shadow-lg rounded-lg">
+    <h2 class="text-2xl font-bold mb-6 text-center">EV Battery Swap Quiz</h2>
+
+<form id="quizForm">
+  <div id="quizContainer" class="space-y-4">
+      <!-- Question 1 -->
+      <div>
+        <p class="font-semibold">1. What is the main advantage of battery swapping?</p>
+        <label><input type="radio" name="q1" value="a" /> Longer charging time</label><br />
+        <label><input type="radio" name="q1" value="b" /> Reduced downtime</label><br />
+        <label><input type="radio" name="q1" value="c" /> Higher cost</label>
+      </div>
+
+      <!-- Question 2 -->
+      <div>
+        <p class="font-semibold">2. Which country is leading in swapping technology?</p>
+        <label><input type="radio" name="q2" value="a" /> China</label><br />
+        <label><input type="radio" name="q2" value="b" /> USA</label><br />
+        <label><input type="radio" name="q2" value="c" /> Germany</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div>
+        <p class="font-semibold">3. Battery swapping removes the need for:</p>
+        <label><input type="radio" name="q3" value="a" /> Charging stations</label><br />
+        <label><input type="radio" name="q3" value="b" /> Parking lots</label><br />
+        <label><input type="radio" name="q3" value="c" /> Battery manufacturers</label>
+      </div>
+
+      <!-- Question 4 -->
+      <div>
+        <p class="font-semibold">4. What type of batteries are commonly used in EVs?</p>
+        <label><input type="radio" name="q4" value="a" /> Lead-acid</label><br />
+        <label><input type="radio" name="q4" value="b" /> Nickel-cadmium</label><br />
+        <label><input type="radio" name="q4" value="c" /> Lithium-ion</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div>
+        <p class="font-semibold">5. Battery swapping is most useful for:</p>
+        <label><input type="radio" name="q5" value="a" /> Two-wheelers and three-wheelers</label><br />
+        <label><input type="radio" name="q5" value="b" /> Bicycles</label><br />
+        <label><input type="radio" name="q5" value="c" /> Airplanes</label>
+      </div>
+
+      <!-- Question 6 -->
+      <div>
+        <p class="font-semibold">6. What is a major challenge of battery swapping?</p>
+        <label><input type="radio" name="q6" value="a" /> Standardization of batteries</label><br />
+        <label><input type="radio" name="q6" value="b" /> Free electricity</label><br />
+        <label><input type="radio" name="q6" value="c" /> Infinite battery life</label>
+      </div>
+
+      <!-- Question 7 -->
+      <div>
+        <p class="font-semibold">7. Battery swapping helps reduce:</p>
+        <label><input type="radio" name="q7" value="a" /> Carbon emissions</label><br />
+        <label><input type="radio" name="q7" value="b" /> Internet data usage</label><br />
+        <label><input type="radio" name="q7" value="c" /> Engine oil consumption</label>
+      </div>
+
+      <!-- Question 8 -->
+      <div>
+        <p class="font-semibold">8. Which of these is a key benefit?</p>
+        <label><input type="radio" name="q8" value="a" /> Quick energy replenishment</label><br />
+        <label><input type="radio" name="q8" value="b" /> Long wait times</label><br />
+        <label><input type="radio" name="q8" value="c" /> Low battery density</label>
+      </div>
+
+      <!-- Question 9 -->
+      <div>
+        <p class="font-semibold">9. Battery swapping supports which future trend?</p>
+        <label><input type="radio" name="q9" value="a" /> Fossil fuel growth</label><br />
+        <label><input type="radio" name="q9" value="b" /> Renewable energy</label><br />
+        <label><input type="radio" name="q9" value="c" /> Coal-based power</label>
+      </div>
+
+      <!-- Question 10 -->
+      <div>
+        <p class="font-semibold">10. Swapping is faster than:</p>
+        <label><input type="radio" name="q10" value="a" /> Washing a car</label><br />
+        <label><input type="radio" name="q10" value="b" /> Plug-in charging</label><br />
+        <label><input type="radio" name="q10" value="c" /> Engine replacement</label>
+      </div>
+
+      <button type="submit" class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">Submit</button>
+    </form>
+
+    <div id="result" class="mt-6 text-lg font-bold text-center"></div>
+  </div>
+
+</body>
+</html>
